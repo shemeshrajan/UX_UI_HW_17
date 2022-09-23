@@ -1,0 +1,263 @@
+/*Navigation*/
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif; 
+}
+.topnav{
+  background-color: gray;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+.inlineBlock{
+    
+    vertical-align: center;
+    background-color: #414141;
+}
+.logo{
+    width: 101px;
+    height: 56px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: 'montserrat';
+}
+li a:hover:not(.active){
+    color: #ffb633;
+}
+
+/*banner1 - Hero Image*/
+
+
+#banner1{
+    
+    display: grid;
+    margin: 0px;
+    grid-template-columns: 30% 70%;
+    background-color: #2c2c2c;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+    grid-template-areas: 
+    "side1 side2";
+}
+#blocka1{
+    grid-area: block1;
+}
+#block2{
+    grid-area: block2;
+
+}
+.blockGridArea{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+    padding-right: 20px;
+    display: grid;
+    align-content: end;
+    justify-content: end;
+    background-color: #2c2c2c;
+}
+.blocka1{
+    background-color: #ffb633;
+    margin: 0px;
+    height: 600px;
+}
+.block2{
+    
+    margin: 10%;
+}
+button{
+    background-color: #2c2c2c;
+    font-size: 18px;
+    border: 2px solid #ffb633;
+    color: #ffb633;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+mark{
+    background-color: transparent;
+}
+
+
+/*Banner 2 About Me*/
+
+#banner2{
+    display: grid;
+    background-color:#ce4040 ;
+    margin-left: 100px;
+    margin-right: 100px;   
+    grid-template-columns: 30% 70%;
+    height: 600px;
+    grid-template-areas: 
+    "sideb1 sideb2";
+}
+#blockb1{
+    grid-area: sideb1;   
+}
+#blockb2{
+    grid-area: sideb2;
+}
+.aboutme{
+    display: grid;
+    position: relative;
+ 
+    
+}
+.blockb1{
+    color: white;
+    background-color: #3c3c3c;
+    display: grid;
+    position: inherit;
+    text-align: right;
+    font-size: 800;
+    padding-right: 20%;
+
+    padding-left: 20%;
+    align-content: center;
+    justify-content: end;
+}
+.blockb2{
+    color: white;
+    display: grid;
+    background-color: #3c3c3c;
+    position: inherit;
+    padding-right: 10%;
+    padding-left: 25%;
+    font-weight: 100;
+    height: 600px;
+    align-content: end;
+}
+/*banner3 My skills*/
+#banner3{
+    display: grid;
+    background-color: #2c2c2c;
+    position: relative;
+    grid-template-columns: 70% 30%;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 600px;
+    grid-template-areas: 
+    "sidec1 sidec3";
+}
+
+
+.myskills{
+    display: grid;
+    position: relative;
+}
+.blockc1{
+
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    display: grid;
+    
+}
+
+
+
+/*banner 4 My Services*/
+
+#banner4{
+    display: grid;
+    background-color: #3c3c3c;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-template-columns: 30% 70%;
+    height: 600px;
+    grid-template-areas: 
+    "sided1 sided2";
+}
+.myservices{
+  
+    position: relative;
+    display: grid;
+}
+#blockd1{
+    grid-area: sided1;
+}
+#blcokd2{
+    grid-area: sided2;
+}
+
+.blockd1{
+    color: white;
+    position: inherit;
+    display: grid;
+    text-align: right;
+    font-size: 800;
+    align-content: center;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.blockd2{
+    color: white;
+    position: inherit;
+    padding-right: 10%;
+    padding-left: 25%;
+    font-weight: 100;
+    align-content: end;
+  
+    
+}
+/*Footer Contct me*/
+
+#footer{
+    display: grid;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-template-columns: 55% 20% 25%;
+    height: 600px;
+    grid-template-areas: 
+   "sidee1 sidee2 sidee3";
+}
+.blocke1{
+    background-color: #2c2c2c;
+    width: auto;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.blocke2{
+    background-color: #2c2c2c;
+    width: auto;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.blocke3{
+    background-color: #ffb633;
+    width: auto;
+    height: 200px;
+    display: grid;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/*part*/
+/*part*/
